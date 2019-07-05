@@ -9,7 +9,7 @@ import IceCreamList from './IceCreamList';
 function App() {
   return(
     <div>
-       <style jsx global>{`
+      <style jsx global>{`
             div {
                 background-color: purple;
                 color: white;
