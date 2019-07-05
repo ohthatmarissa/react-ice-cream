@@ -11,7 +11,7 @@ function IceCream(props){
             }
         `}</style>
       <div className="iceCreamonly">
-        <h3>{props.name}</h3>
+        <h2>{props.name}</h2>
         <h3>{props.type}</h3>
         <p><em>{props.price}</em></p>
         <br></br>
