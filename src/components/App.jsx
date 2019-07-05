@@ -1,9 +1,9 @@
 import React from 'react';
-import NewTicketForm from './NewTicketForm';
+import NewIceCreamForm from './NewIceCreamForm';
 import Header from './Header';
 import { Switch, Route } from 'react-router-dom';
-import TicketList from './TicketList';
-// import icecream1 from './assets/images/icecream1.jpg';
+import IceCreamList from './IceCreamList';
+
 
 
 function App() {
@@ -21,15 +21,11 @@ function App() {
         `}</style>
       <Header/>
       <Switch>
-        <Route exact path='/' component={TicketList} />
-        <Route path='/newticket' component={NewTicketForm} />
+        <Route exact path='/' component={IceCreamList} />
+        <Route path='/newiceCream' component={NewIceCreamForm} />
       </Switch>
     </div>
   );
 }
 
 export default App;
-
-// <div>
-//         <img src={icecream1} alt="ice cream"/>
-//     </div>

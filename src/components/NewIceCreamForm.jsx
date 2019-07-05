@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function NewTicketForm(){
+function NewIceCreamForm(){
   return (
     <div>
         <style jsx global>{`
@@ -12,20 +12,20 @@ function NewTicketForm(){
     <form> 
         <input 
         type="text"
-        id='names'
-        placeholder='Pair Names'/>__
+        id='name'
+        placeholder='Ice Cream Name'/>__
         <input 
         type="text"
-        id='location'
-        placeholder='Location'/>__
+        id='type'
+        placeholder='Ice Cream Type'/>__
         <input
-        id="issue" 
-        placeholder='Describe your issue'
+        id="price" 
+        placeholder='Ice Cream Price'
         cols="30" rows="10"></input>__
-        <button type='submit'>Help!</button>
+        <button type='submit'>Add!</button>
     </form>
 </div>
   );
 }
 
-export default NewTicketForm;
+export default NewIceCreamForm;

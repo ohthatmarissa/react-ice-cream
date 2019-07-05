@@ -10,8 +10,8 @@ function Header(){
                 font-size: 100px:
             }
         `}</style>
-      <h1>Help Queue!</h1>
-      <Link to="/">Home</Link> | <Link to="/newticket">Create Ticket</Link>
+      <h1>Ice Cream!</h1>
+      <Link to="/">Home</Link> | <Link to="/newiceCream">Add New Flavor</Link>
       <img src={icecream1}/>
       <br/><br/>
     </div>
